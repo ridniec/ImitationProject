@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Birthstone&family=Cinzel:wght@400;500;600&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+main {
+  /* Fix the size of your design before you do anything else */
+  width: 480px;
+  height: 750px;
+  margin: auto;
+  border: 3px solid #2f4326;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px;
+  background-image: url(poster3.jpeg);
+  position: relative;
+}
+.very-top {
+  font-weight: bold;
+  font-size: 11px;
+}
+.bottom-half {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 480px;
+}
+h1 {
+  text-align: left;
+  font-size: 70px;
+  margin: 0;
+}
+.title-the {
+  font-family: 'Birthstone', cursive;
+  font-size: 0.8em;
+  margin-left: .5em;
+  display: block;
+  color: #be425c;
+  position: relative;
+  bottom: 50px;
+  left: 42px;
+}
+.title-wizard {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.5em;
+  margin-left: .5em;
+  display: block;
+  color: #ffb000;
+  line-height: 0.10;
+  position: relative;
+  bottom: 31px;
+}
+.title-izar {
+  font-family: 'Crimson Pro', serif;
+  font-size: 0.7em;
+  display: inline-block;
+  color: #ffb000;
+  /* Help from Hinkle */
+  position: relative; 
+  /* Adjust to move up / left; */
+  top: -0.1em;
+  left: -0.2em;
+  /* Adjust to move the "D" closer */
+  margin-right: -0.3em;
+}
+.title-of {
+  font-family: 'Birthstone', cursive;
+  font-size: 41px;
+  margin-left: .5em;
+  display: block;
+  color: #be425c;
+  position: relative;
+  left: 110px;
+  bottom: 21px;
+}
+.title-oz {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2.3em;
+  margin-left: .5em;
+  color: #ffb000;
+  display: block;
+  line-height: 0.5;
+  position: relative;
+  bottom: 21px;
+  left: -32px;
+}
+.title-z {
+  font-size: 0.8em;
+  position: relative; 
+  bottom: 17px;
+  right: 19px;
+}
+.bottom {
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  padding: 0 55px 0 55px;
+  padding-bottom: 4px;
+}
+.bottom span {
+  font-size: 9px;
+  font-weight: bold;
+}
+.names span {
+  color:red;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+}
+.names {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 600;
+}
+.bold-names {
+  position: absolute;
+  right: 44px;
+  top: 50px;
+  font-family: 'Anton', sans-serif;
+  font-size: 19px;
+  line-height: 1;
+}
+.bold-names span {
+  color: red;
+  font-size: 10px;
+}
+.victor-fleming {
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  /* Position in terms of 
+  the whole bottom */
+  position: absolute;
+  line-height: 1.5;
+  left: 227px;
+  top: 128px;
+}
+.victor-fleming span {
+  font-weight: bold;
+  font-size: 11px;
+}
+.technicolor {
+  font-size: 10px;
+  color: #ee2f2f;
+  position: relative;
+  left: 26px;
+  top: 212px;
+}
+.technicolor span {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: bold;
+}
